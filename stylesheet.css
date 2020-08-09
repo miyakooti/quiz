@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  font-family: monospace;
+}
+.container {
+  margin:0 auto;
+  margin-top:200px;
+  width: 80%;
+}
+.container h1{
+  letter-spacing: 15px;
+  margin-bottom: 75px;
+  font-size: 45px;
+  font-weight: lighter;
+}
+.start {
+  text-decoration: none;
+  color: white;
+  background-color: skyblue;
+  display: inline-block;
+  padding: 25px;
+  border-radius: 11px;
+  box-shadow: 5px 5px black;
+  font-size: 29px;
+  border: 3px solid pink;
+}
+.start:active{
+  position: relative;
+  top:1px;
+  left:1px;
+  box-shadow: 1px 1px black;
+}
+
+
+/* クイズ画面 */
+#js-question {
+  letter-spacing: 4px;
+  margin-bottom: 45px;
+  font-weight:lighter;
+  font-size: 20px;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  
+}
+button {
+  background-color: white;
+  border: 1px solid black !important;
+  font-size: 25px;
+  font-family: monospace;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: skyblue;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 3px 3px black;
+  font-size: 21px;
+  border: 3px solid pink;
+}
