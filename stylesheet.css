@@ -85,7 +85,7 @@ button {
   }
   .container h1 {
     font-size: 65px;
-    padding-top:105px;
+    padding-top:20px;
   }
   .start {
     text-decoration: none;
@@ -99,10 +99,10 @@ button {
     border: 6px solid pink;
   }
   #js-question{
-    font-size: 30px;
+    font-size: 27px;
   }
   .container {
-    margin-top: 75px;
+    margin-top: 45px;
     width: 90%;
   }
   .flex {
@@ -110,6 +110,6 @@ button {
   }
   button{
     width: 100%;
-    margin: 15px 0;
+    margin: 7px 0;
   }
 }
