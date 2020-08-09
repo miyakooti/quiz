@@ -1,6 +1,10 @@
+.pc_none{
+  display: none;
+}
 body {
   text-align: center;
   font-family: monospace;
+  background-image: url("sakura01.png");
 }
 .container {
   margin:0 auto;
@@ -26,8 +30,8 @@ body {
 }
 .start:active{
   position: relative;
-  top:1px;
-  left:1px;
+  top:4px;
+  left:4px;
   box-shadow: 1px 1px black;
 }
 
@@ -58,4 +62,54 @@ button {
   box-shadow: 3px 3px black;
   font-size: 21px;
   border: 3px solid pink;
+}
+button:hover{
+  animation: 100em;
+  position: relative;
+  top:3px;
+  left:3px;
+  box-shadow: none;
+}
+.container span{
+  font-size:35px;
+}
+
+
+
+
+
+
+@media(max-width:750px){
+  .pc_none{
+    display: block;
+  }
+  .container h1 {
+    font-size: 65px;
+    padding-top:105px;
+  }
+  .start {
+    text-decoration: none;
+    color: white;
+    background-color: skyblue;
+    display: inline-block;
+    padding: 42px;
+    border-radius: 60px;
+    box-shadow: 10px 10px black;
+    font-size: 36px;
+    border: 6px solid pink;
+  }
+  #js-question{
+    font-size: 30px;
+  }
+  .container {
+    margin-top: 75px;
+    width: 90%;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  button{
+    width: 100%;
+    margin: 15px 0;
+  }
 }
